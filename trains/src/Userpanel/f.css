@@ -1,0 +1,101 @@
+General Page Styles
+.train-container {
+  font-family: Arial, sans-serif;
+  background-color: red;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.train-header {
+  background-color: #004d9982;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+/* Train Card Container */
+.train-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.fail{
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  min-height: 100vh;
+  
+}
+
+/* Train Card */
+.train-card {
+  background: white;
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.train-card:hover {
+  transform: scale(1.05);
+}
+
+/* Train Image */
+.train-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+
+.train-details {
+  padding: 15px;
+  text-align: center;
+}
+
+.train-name {
+  font-size: 20px;
+  color: #004d99;
+  margin-bottom: 10px;
+}
+
+.train-price {
+  font-size: 18px;
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.train-route, .train-date {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+
+.book-button {
+  display: inline-block;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.book-button:hover {
+  background-color: #cc5500;
+}
+
+/* Loading Text */
+.loading-text {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-top: 20px;
+}
